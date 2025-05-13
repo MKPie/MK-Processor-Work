@@ -1,0 +1,41 @@
+{
+    "app": {
+        "window_title": "MK Processor 3.0.4",
+        "window_size": [
+            800,
+            600
+        ]
+    },
+    "scraping": {
+        "timeout": 30,
+        "retry_attempts": 2,
+        "user_agent_rotation": true
+    },
+    "output": {
+        "output_dir": "/home/mkpie/GoogleDriveMount/Web/Completed/Final",
+        "prefix": "final_"
+    },
+    "ui": {
+        "button_primary_color": "#4285f4",
+        "button_secondary_color": "#f0f0f0"
+    },
+    "common_spec_fields": [
+        "manufacturer",
+        "food type",
+        "frypot style",
+        "heat",
+        "hertz",
+        "nema",
+        "number of fry pots",
+        "oil capacity/fryer (lb)",
+        "phase",
+        "product",
+        "product type",
+        "rating",
+        "special features",
+        "type",
+        "voltage",
+        "warranty",
+        "weight"
+    ]
+}

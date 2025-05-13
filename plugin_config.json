@@ -1,0 +1,23 @@
+{
+    "api_manager_plugin": {
+        "enabled": true,
+        "show_in_ui": true,
+        "name": "API Manager",
+        "description": "Manage API integrations for product data retrieval",
+        "version": "1.0.0"
+    },
+    "x-multi_prefix_plugin": {
+        "enabled": false,
+        "show_in_ui": false,
+        "name": "Multi-Prefix Plugin",
+        "description": "Try multiple prefixes when scraping Katom",
+        "version": "1.0.0"
+    },
+    "example_plugin": {
+        "enabled": true,
+        "show_in_ui": true,
+        "name": "Example Plugin",
+        "description": "Demonstrates plugin functionality with enable/disable and show/hide support",
+        "version": "1.0.0"
+    }
+}
